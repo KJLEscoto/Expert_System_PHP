@@ -1,31 +1,33 @@
-<footer class="bg-[#febd5b] mt-[800px] md:px-36 px-10">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 pt-8 tracking-wide">
+<footer class="bg-[#febd5b] mt-[800px] md:px-36 px-10 duration-300">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 pt-8 tracking-wide duration-300">
     <div class="p-0 lg:p-5 text-[#005BAB] text-sm duration-300">
-      <h3 class="text-2xl font-bold mb-5">STI 😎 With Healthy Lifestyle</h3>
-      <p class="text-justify lg:text-start">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, est. Doloremque sapiente veritatis
-        laboriosam corrupti optio et maxime.
+      <h3 class="text-2xl font-bold mb-5 cursor-default">STI 😎 With Healthy Lifestyle</h3>
+      <p class="text-justify lg:text-start tracking-wider">
+        A healthy and meaningful life requires an emotional state of well-being. It includes the capacity to comprehend,
+        control, and express emotions in a way that has a positive influence on your general quality of life. This
+        manual will examine the numerous facets of emotional health and will arm you with knowledge, techniques, and
+        tools to support and improve your emotional health.
       </p>
     </div>
     <div class="grid grid-cols-2 lg:mt-0 mt-10 duration-300 transition">
       <div class="p-0 lg:p-5 text-sm text-[#005BAB] duration-300 transition">
-        <h4 class="text-lg font-bold mb-5">Support</h4>
-        <p class="mb-3">FAQs</p>
-        <p class="mb-3">Terms & Conditions</p>
-        <p class="mb-3">Privacy Policy</p>
-        <p class="mb-3">Contact Us</p>
+        <h4 class="text-lg font-bold mb-5 cursor-default">Support</h4>
+        <p class="mb-3 tracking-wider">FAQs</p>
+        <p class="mb-3 tracking-wider">Terms & Conditions</p>
+        <p class="mb-3 tracking-wider">Privacy Policy</p>
+        <p class="mb-3 tracking-wider">Contact Us</p>
       </div>
       <div class="p-0 lg:p-5 text-[#005BAB] text-sm duration-300 transition">
-        <h4 class="text-lg font-bold mb-5">Address</h4>
-        <p class="mb-3">
+        <h4 class="text-lg font-bold mb-5 cursor-default">Address</h4>
+        <p class="mb-3 tracking-wider">
           <span class="font-semibold">Address:</span> 506 J.P. Laurel Ave, Poblacion District, Davao City, 8000 Davao
           del
           Sur
         </p>
-        <p class="mb-3">
+        <p class="mb-3 tracking-wider">
           <span class="font-semibold">Email:</span> BSCS@gmail.com
         </p>
-        <p class="mb-3">
+        <p class="mb-3 tracking-wider">
           <span class="font-semibold">Phone:</span> +63 9023234
         </p>
       </div>

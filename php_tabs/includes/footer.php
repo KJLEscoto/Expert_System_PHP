@@ -1,4 +1,4 @@
-<footer class="bg-[#febd5b] mt-[800px] md:px-36 px-10 duration-300">
+<footer class="bg-[#febd5b] mt-20 z-10 w-full lg:px-36 md:px-28 px-10 duration-300">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 pt-8 tracking-wide duration-300">
     <div class="p-0 lg:p-5 text-[#005BAB] text-sm duration-300">
       <h3 class="text-2xl font-bold mb-5 cursor-default">STI 😎 With Healthy Lifestyle</h3>

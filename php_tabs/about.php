@@ -1,5 +1,6 @@
-<h1 class="text-center md:text-4xl text-2xl text-[#003568] cursor-default font-extrabold">About Us</h1>
-<p class="text-[#004e94] mt-8 tracking-wider text-lg text-justify md:text-start">Lorem ipsum dolor sit amet
+<h1 class="text-center md:text-4xl text-2xl text-[#003568] dark:text-white cursor-default font-extrabold">About Us</h1>
+<p class="text-[#004e94] dark:text-gray-100 mt-8 tracking-wider text-lg text-justify md:text-start">Lorem ipsum dolor
+  sit amet
   consectetur, adipisicing elit.
   Expedita,
   est. Doloremque
@@ -11,12 +12,17 @@
   cupiditate recusandae.</p>
 <div class="flex justify-center items-center mt-8">
   <button
-    class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#005BAB] transition duration-300 ease-in-out">
+    class="hover:border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
+    Developers
+  </button>
+  <button
+    class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
     Developers
   </button>
 </div>
 
-<h1 class="mt-20 mb-10 text-center md:text-4xl text-2xl text-[#003568] cursor-default font-extrabold">More About
+<h1 class="mt-20 mb-10 text-center md:text-4xl text-2xl text-[#003568] dark:text-white cursor-default font-extrabold">
+  More About
   Mental Health
   Issues
 </h1>

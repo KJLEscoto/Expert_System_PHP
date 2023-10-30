@@ -1,9 +1,12 @@
 <img src="img/STIart.png" alt="art-img" class="m-auto h-auto w-auto pb-10">
 <div class="m-auto tracking-wide">
-  <h1 class="md:text-4xl text-3xl text-center lg:text-start mb-5 font-black text-[#003568] cursor-default">STI 😎
+  <h1
+    class="md:text-4xl text-3xl text-center lg:text-start mb-5 font-black text-[#003568] dark:text-white cursor-default">
+    STI 😎
     With Healthy
     Lifestyle</h1>
-  <p class="text-[#004e94] duration-300 text-justify lg:text-start">A healthy and meaningful life requires an
+  <p class="text-[#004e94] dark:text-gray-100 duration-300 text-justify lg:text-start">A healthy and meaningful life
+    requires an
     emotional state
     of well-being. It
     includes the
@@ -13,21 +16,28 @@
     techniques, and tools to support and improve your emotional health.</p>
   <div class="flex justify-center items-center lg:justify-start mt-5">
     <button
-      class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#005BAB] transition duration-300 ease-in-out">
+      class="hover:border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
+      Learn More.
+    </button>
+    <button
+      class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
       Learn More.
     </button>
   </div>
 </div>
 </section>
 
-<hr class="border border-b-slate-400 mt-10 mb-5">
+<hr class="border border-slate-400 dark:border-[#dba047] mt-10 mb-5">
 
 <section class="duration-300 z-0 mt-20 tracking-wide lg:px-36 md:px-28 px-10">
-  <h1 class="md:text-4xl text-2xl font-extrabold text-[#003568] cursor-default text-center md:text-start">Welcome to
+  <h1
+    class="md:text-4xl text-2xl font-extrabold text-[#003568] dark:text-white cursor-default text-center md:text-start">
+    Welcome to
     the "Exploring Emotional
     Well-Being"
   </h1>
-  <p class="text-[#004e94] text-lg mt-3 text-justify md:text-start">We are excited to have you participate in this
+  <p class="text-[#004e94] dark:text-gray-100 text-lg mt-3 text-justify md:text-start">We are excited to have you
+    participate in this
     important study focused on
     understanding
     emotions and

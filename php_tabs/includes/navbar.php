@@ -3,9 +3,8 @@
   <header class="mx-auto flex items-center justify-between duration-300">
     <section>
       <div class="flex items-center">
-        <a href=".././php_tabs/index.php"><img
-            class="w-auto h-[40px] mr-2 hover:scale-105 transition duration-300 ease-in-out" src=".././img/sti.png"
-            alt="STI-Logo"></a>
+        <a href="index.php"><img class="w-auto h-[40px] mr-2 hover:scale-105 transition duration-300 ease-in-out"
+            src="img/sti.png" alt="STI-Logo"></a>
         <h1 class="text-xl font-bold text-[#005BAB] cursor-default tracking-wider m-auto">
           <?php echo "College - Davao"; ?>
         </h1>
@@ -16,24 +15,32 @@
       <ul class="font-semibold text-[#005BAB] flex gap-3 text-base tracking-wider">
         <a href="#home">
           <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-            <img class="w-auto h-6" src=".././img/blue-home-icon.png" alt="home-icon">
+            <img class="w-auto h-6" src="img/blue-home-icon.png" alt="home-icon">
             <span class="ml-1"><?php echo "Home"; ?></span>
           </li>
         </a>
         <a href="#about">
           <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-            <img class="w-auto h-6" src=".././img/blue-abt-icon.png" alt="about-icon">
+            <img class="w-auto h-6" src="img/blue-abt-icon.png" alt="about-icon">
             <span class="ml-1"><?php echo "About"; ?></span>
           </li>
         </a>
         <a href="#contact">
           <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-            <img class="w-auto h-6" src=".././img/blue-cont-icon.png" alt="contact-icon">
+            <img class="w-auto h-6" src="img/blue-cont-icon.png" alt="contact-icon">
             <span class="ml-1"><?php echo "Contact"; ?></span>
           </li>
         </a>
       </ul>
     </section>
+
+
+    <!-- <section class="absolute top-[20px] right-[130px] hidden lg:block duration-300 ease-out">
+      <div class="fixed">
+        <img class="w-10 h-auto moon cursor-pointer" src="img/moon.png" alt="moon">
+        <img class="w-10 h-auto sun cursor-pointer" src="img/sun.png" alt="sun">
+      </div>
+    </section> -->
 
     <!-- <section class="lg:block hidden">
       <div class="relative">
@@ -56,7 +63,7 @@
     <section class="lg:hidden">
       <button id="menu-button">
         <div id="menu-icon">
-          <img class="w-auto h-7 opacity-80" src="../img/blue-ham-icon.png" alt="Menu">
+          <img class="w-auto h-7 opacity-80" src="img/blue-ham-icon.png" alt="Menu">
         </div>
       </button>
     </section>
@@ -66,19 +73,19 @@
     <ul class="font-semibold text-[#005BAB] flex flex-col gap-1 tracking-wider">
       <a href="#home">
         <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-          <img class="w-auto h-6" src=".././img/blue-home-icon.png" alt="home-icon">
+          <img class="w-auto h-6" src="img/blue-home-icon.png" alt="home-icon">
           <span class="ml-2 m-auto"><?php echo "Home"; ?></span>
         </li>
       </a>
       <a href="#about">
         <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-          <img class="w-auto h-6" src=".././img/blue-abt-icon.png" alt="about-icon">
+          <img class="w-auto h-6" src="img/blue-abt-icon.png" alt="about-icon">
           <span class="ml-2 m-auto"><?php echo "About"; ?></span>
         </li>
       </a>
       <a href="#contact">
         <li class="hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
-          <img class="w-auto h-6" src=".././img/blue-cont-icon.png" alt="contact-icon">
+          <img class="w-auto h-6" src="img/blue-cont-icon.png" alt="contact-icon">
           <span class="ml-2 m-auto"><?php echo "Contact"; ?></span>
         </li>
       </a>
@@ -90,49 +97,4 @@
   </section>
 </nav>
 
-<script>
-const navbar = document.getElementById('navbar');
-const responsiveMenu = document.getElementById('responsive-menu');
-
-function toggleBackgroundColor() {
-  navbar.classList.toggle('bg-[#febd5b]', 'bg-opacity-95', 'transition-all', 'ease-in-out', 'shadow-lg');
-}
-
-function closeResponsiveMenu() {
-  responsiveMenu.classList.add('hidden');
-  toggleBackgroundColor();
-  const menuIcon = document.getElementById('menu-icon');
-  menuIcon.innerHTML = '<img class="w-auto h-7" src="../img/blue-ham-icon.png" alt="Menu">';
-}
-
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) {
-    navbar.classList.add('bg-[#febd5b]', 'bg-opacity-95', 'transition-all', 'duration-500', 'ease-in-out',
-      'shadow-lg');
-  } else {
-    navbar.classList.remove('bg-[#febd5b]', 'bg-opacity-95', 'shadow-lg');
-  }
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  const menuButton = document.getElementById("menu-button");
-  const menuIcon = document.getElementById("menu-icon");
-
-  menuButton.addEventListener("click", function() {
-    responsiveMenu.classList.toggle("hidden");
-    toggleBackgroundColor();
-
-    if (responsiveMenu.classList.contains("hidden")) {
-      menuIcon.innerHTML = '<img class="w-auto h-7" src="../img/blue-ham-icon.png" alt="Menu">';
-    } else {
-      menuIcon.innerHTML = '<img class="w-auto h-6" src="../img/blue-x-icon.png" alt="Close">';
-    }
-  });
-
-  // Add event listeners to menu items
-  const menuItems = document.querySelectorAll("#responsive-menu a");
-  menuItems.forEach(item => {
-    item.addEventListener("click", closeResponsiveMenu);
-  });
-});
-</script>
+<script src="js/navbar-script.js"></script>

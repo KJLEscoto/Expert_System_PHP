@@ -1,7 +1,8 @@
-<img src="img/STIart.png" alt="art-img" class="m-auto h-auto w-auto pb-10">
+<img src="img/art-white.png" alt="art-img" class="hidden dark:block m-auto h-auto w-auto pb-10">
+<img src="img/art-dark.png" alt="art-img" class="block dark:hidden m-auto h-auto w-auto pb-10">
 <div class="m-auto tracking-wide">
   <h1
-    class="md:text-4xl text-3xl text-center lg:text-start mb-5 font-black text-[#003568] dark:text-white cursor-default">
+    class="md:text-4xl text-3xl text-center lg:text-start mb-5 font-black text-[#003568] dark:text-[#febd5b] cursor-default">
     STI 😎
     With Healthy
     Lifestyle</h1>
@@ -31,7 +32,7 @@
 
 <section class="duration-300 z-0 mt-20 tracking-wide lg:px-36 md:px-28 px-10">
   <h1
-    class="md:text-4xl text-2xl font-extrabold text-[#003568] dark:text-white cursor-default text-center md:text-start">
+    class="md:text-4xl text-2xl font-extrabold text-[#003568] dark:text-[#febd5b] cursor-default text-center md:text-start">
     Welcome to
     the "Exploring Emotional
     Well-Being"

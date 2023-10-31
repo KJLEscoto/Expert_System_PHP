@@ -1,4 +1,4 @@
-<!-- update-8 -->
+<!-- update-9 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,7 @@
   <section id="home" class="mt-52 duration-300 z-0 grid lg:grid-cols-2 grid-cols-1 gap-9 lg:px-36 md:px-28 px-10"
     data-title="Home">
     <?php
-      include("php_tabs/home.php");
+      include("php_tabs/includes/home.php");
     ?>
   </section>
 
@@ -29,7 +29,7 @@
 
   <section class="mt-32 tracking-wide lg:px-36 md:px-28 px-10" data-title="About">
     <?php
-      include("php_tabs/about.php");
+      include("php_tabs/includes/about.php");
     ?>
   </section>
 
@@ -37,7 +37,7 @@
 
   <section class="mt-32 lg:px-36 md:px-28 px-10" data-title="Contact">
     <?php 
-      include("php_tabs/contact.php");
+      include("php_tabs/includes/contact.php");
     ?>
   </section>
 

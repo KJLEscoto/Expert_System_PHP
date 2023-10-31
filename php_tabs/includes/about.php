@@ -1,4 +1,5 @@
-<h1 class="text-center md:text-4xl text-2xl text-[#003568] dark:text-white cursor-default font-extrabold">About Us</h1>
+<h1 class="text-center md:text-4xl text-2xl text-[#003568] dark:text-[#febd5b] cursor-default font-extrabold">About Us
+</h1>
 <p class="text-[#004e94] dark:text-gray-100 mt-8 tracking-wider text-lg text-justify md:text-start">Lorem ipsum dolor
   sit amet
   consectetur, adipisicing elit.
@@ -21,7 +22,8 @@
   </button>
 </div>
 
-<h1 class="mt-20 mb-10 text-center md:text-4xl text-2xl text-[#003568] dark:text-white cursor-default font-extrabold">
+<h1
+  class="mt-32 mb-10 text-center md:text-4xl text-2xl text-[#003568] dark:text-[#febd5b] cursor-default font-extrabold">
   More About
   Mental Health
   Issues
@@ -64,7 +66,7 @@
   </a>
 </div>
 
-<div class="flex flex-wrap">
+<div class="flex flex-wrap" id="animated-cards">
   <a href="https://www.gale.com/open-access/depression" class="w-full md:w-1/2 lg:w-1/3 xl:w-1/5 p-4">
     <section
       class="shadow-lg overflow-hidden hover:scale-95 transition duration-300 ease-in-out bg-[#e8edf3] h-full flex flex-col">

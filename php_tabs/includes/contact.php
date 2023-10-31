@@ -1,4 +1,4 @@
-<h1 class="text-center text-4xl text-[#003568] dark:text-white cursor-default font-extrabold mb-10">Contact Us</h1>
+<h1 class="text-center text-4xl text-[#003568] dark:text-[#febd5b] cursor-default font-extrabold mb-10">Contact Us</h1>
 <div
   class="w-full h-auto m-auto flex flex-wrap border-2 border-blue-950 border-opacity-20 rounded-xl p-10 shadow-2xl bg-[#f8f8f8] dark:bg-[#cccccb]">
   <div class="md:w-1/2 w-full mb-5 md:mb-0 h-auto flex flex-wrap">
@@ -36,7 +36,8 @@
 
 <div class="grid lg:grid-cols-2 grid-cols-1 mt-32">
   <div class="mb-5 lg:mb-0">
-    <h1 class="text-3xl font-bold text-[#003568] dark:text-white cursor-default mb-5 text-center lg:text-start">Sign up
+    <h1 class="text-3xl font-bold text-[#003568] dark:text-[#febd5b] cursor-default mb-5 text-center lg:text-start">Sign
+      up
       for
       newsletter!</h1>
     <p class="text-[#004e94] text-base text-justify lg:text-start dark:text-gray-100">Lorem Ipsum Dolor A Sit Ameti,

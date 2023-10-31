@@ -1,7 +1,8 @@
 <footer class="dark:bg-[#e6a544] bg-yellow-300 mt-20 z-10 w-full lg:px-36 md:px-28 px-10 duration-300">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 pt-8 tracking-wide duration-300">
     <div class="p-0 lg:p-5 text-sm duration-300">
-      <h3 class="text-2xl font-bold mb-5 cursor-default text-[#003568] dark:text-white">STI 😎 With Healthy Lifestyle
+      <h3 class="text-2xl font-bold mb-5 cursor-default text-[#003568] dark:text-white">STI 😎 With Healthy
+        Lifestyle
       </h3>
       <p class="text-justify lg:text-start tracking-wider text-[#004e94] dark:text-gray-100">
         A healthy and meaningful life requires an emotional state of well-being. It includes the capacity to comprehend,

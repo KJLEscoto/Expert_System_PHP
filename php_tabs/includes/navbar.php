@@ -8,18 +8,18 @@
             src="img/sti.png" alt="STI-Logo"></a>
         <a href="index.php"><img
             class="w-auto h-[40px] mr-2 hover:scale-105 transition duration-300 ease-in-out dark:block hidden"
-            src="img/sti-dark.png" alt="STI-Logo"></a>
-        <h1 class="text-xl font-bold text-[#005BAB] dark:text-[#002951] cursor-default tracking-wider m-auto">
+            src="img/white-sti.png" alt="STI-Logo"></a>
+        <h1 class="text-xl font-bold text-[#005BAB] dark:text-[#febd5b] cursor-default tracking-wider m-auto">
           <?php echo "College - Davao"; ?>
         </h1>
       </div>
     </section>
 
     <section class="lg:block hidden">
-      <ul class="font-semibold text-[#005BAB] dark:text-gray-100 flex gap-3 text-base tracking-wider">
+      <ul class="font-semibold text-[#005BAB] dark:text-[#febd5b] flex gap-3 text-base tracking-wider">
         <a href="#home">
           <li
-            class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+            class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
             <img class="w-auto h-6 dark:hidden block" src="img/blue-home-icon.png" alt="home-icon">
             <img class="w-auto h-6 dark:block hidden" src="img/white-home-icon.png" alt="home-icon">
             <span class="ml-1"><?php echo "Home"; ?></span>
@@ -27,7 +27,7 @@
         </a>
         <a href="#about">
           <li
-            class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+            class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
             <img class="w-auto h-6 dark:hidden block" src="img/blue-abt-icon.png" alt="home-icon">
             <img class="w-auto h-6 dark:block hidden" src="img/white-abt-icon.png" alt="home-icon">
             <span class="ml-1"><?php echo "About"; ?></span>
@@ -35,7 +35,7 @@
         </a>
         <a href="#contact">
           <li
-            class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+            class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
             <img class="w-auto h-6 dark:hidden block" src="img/blue-cont-icon.png" alt="home-icon">
             <img class="w-auto h-6 dark:block hidden" src="img/white-cont-icon.png" alt="home-icon">
             <span class="ml-1"><?php echo "Contact"; ?></span>
@@ -65,11 +65,11 @@
 
     <section class="lg:block hidden">
       <button
-        class="hover:border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
+        class="hover:border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
         Take Test!
       </button>
       <button
-        class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
+        class="border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
         Take Test!
       </button>
     </section>
@@ -77,44 +77,45 @@
     <section class="lg:hidden">
       <button id="menu-button">
         <div id="menu-icon">
-          <img class="w-auto h-7 opacity-80" src="img/blue-ham-icon.png" alt="Menu">
+          <img class="w-auto h-7 dark:hidden block" src="img/blue-ham-icon.png" alt="Menu">
+          <img class="w-auto h-7 dark:block hidden" src="img/white-ham-icon.png" alt="Menu">
         </div>
       </button>
     </section>
   </header>
 
   <section id="responsive-menu" class="lg:hidden hidden mt-5 transition duration-300 ease-in-out">
-    <ul class="font-semibold text-[#005BAB] dark:text-gray-100 flex flex-col gap-1 tracking-wider">
+    <ul class="font-semibold text-[#005BAB] dark:text-[#febd5b] flex flex-col gap-1 tracking-wider">
       <a href="#home">
         <li
-          class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+          class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
           <img class="w-auto h-6 dark:hidden block" src="img/blue-home-icon.png" alt="home-icon">
           <img class="w-auto h-6 dark:block hidden" src="img/white-home-icon.png" alt="home-icon">
-          <span class="ml-1"><?php echo "Home"; ?></span>
+          <span class="ml-3"><?php echo "Home"; ?></span>
         </li>
       </a>
       <a href="#about">
         <li
-          class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+          class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
           <img class="w-auto h-6 dark:hidden block" src="img/blue-abt-icon.png" alt="home-icon">
           <img class="w-auto h-6 dark:block hidden" src="img/white-abt-icon.png" alt="home-icon">
-          <span class="ml-1"><?php echo "About"; ?></span>
+          <span class="ml-3"><?php echo "About"; ?></span>
         </li>
       </a>
       <a href="#contact">
         <li
-          class="hover:bg-yellow-200 dark:hover:bg-[#ffc881] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
+          class="hover:bg-yellow-200 dark:hover:bg-[#5270a0] rounded-xl px-3 py-2 transition duration-300 ease-in-out flex">
           <img class="w-auto h-6 dark:hidden block" src="img/blue-cont-icon.png" alt="home-icon">
           <img class="w-auto h-6 dark:block hidden" src="img/white-cont-icon.png" alt="home-icon">
-          <span class="ml-1"><?php echo "Contact"; ?></span>
+          <span class="ml-2"><?php echo "Contact"; ?></span>
         </li>
       </a>
       <button
-        class="mt-2 hover:border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
+        class="mt-2 hover:border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
         Take Test!
       </button>
       <button
-        class="mt-2 border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
+        class="mt-2 border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
         Take Test!
       </button>
     </ul>

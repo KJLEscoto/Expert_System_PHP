@@ -13,19 +13,17 @@
   cupiditate recusandae.</p>
 <div class="flex justify-center items-center mt-8">
   <button
-    class="hover:border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
+    class="hover:border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
     Developers
   </button>
   <button
-    class="border-[#dba047] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
+    class="border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
     Developers
   </button>
 </div>
 
-<h1
-  class="mt-32 mb-10 text-center md:text-4xl text-2xl text-[#003568] dark:text-[#febd5b] cursor-default font-extrabold">
-  More About
-  Mental Health
+<h1 class="mt-32 mb-10 text-center md:text-4xl text-2xl text-[#003568] dark:text-white cursor-default font-extrabold">
+  Mental Health Related
   Issues
 </h1>
 

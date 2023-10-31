@@ -1,15 +1,15 @@
 const navbar = document.getElementById('navbar');
 const responsiveMenu = document.getElementById('responsive-menu');
 
-const $dark_bg = 'dark:bg-[#f0aa4c]';
+const $dark_bg = 'dark:bg-[#254984]';
 const $bg = 'bg-yellow-300';
 let isMenuOpen = false;
 
 function toggleBackgroundColor() {
   if (isMenuOpen) {
-    navbar.classList.add($bg, $dark_bg, 'transition-all', 'ease-in-out', 'shadow-lg');
+    navbar.classList.add($bg, $dark_bg, 'transition-all', 'ease-out', 'shadow-lg');
   } else if (window.scrollY > 0) {
-    navbar.classList.add($bg, $dark_bg, 'transition-all', 'duration-500', 'ease-in-out', 'shadow-lg');
+    navbar.classList.add($bg, $dark_bg, 'transition-all', 'duration-300', 'ease-in-out', 'shadow-lg');
   } else {
     navbar.classList.remove($bg, $dark_bg, 'shadow-lg');
   }
@@ -47,4 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Add an event listener for window scroll
   window.addEventListener('scroll', toggleBackgroundColor);
+
+  // Initial check for background color when the page loads
+  toggleBackgroundColor();
 });

@@ -1,4 +1,4 @@
-<!-- update-9 -->
+<!-- update-10 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +12,19 @@
 </head>
 
 <body class="bg-[#e4e4e4] dark:bg-[#414455]">
+
+  <?php
+    session_start();
+
+    if (isset($_SESSION["submit-success"]) && $_SESSION["submit-success"]) {
+        echo '<div class="notification success">Message Submit!</div>';
+        unset($_SESSION["submit-success"]);
+    } else if (isset($_SESSION["send-success"]) && $_SESSION["send-success"]) {
+      echo '<div class="notification success">Email Sent!</div>';
+      unset($_SESSION["send-success"]);
+  }
+  ?>
+
   <nav>
     <?php
     include("php_tabs/includes/navbar.php");

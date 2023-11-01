@@ -63,16 +63,14 @@
       </div>
     </section> -->
 
-    <section class="lg:block hidden">
-      <button
-        class="hover:border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden">
-        Take Test!
-      </button>
-      <button
-        class="border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block">
-        Take Test!
-      </button>
-    </section>
+    <form method="POST" class="lg:block hidden">
+      <input type="submit"
+        class="hover:border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl hover:bg-[#febd5b] bg-[#5495C9] font-semibold text-white border-[#2e5679] hover:text-[#002951] transition duration-300 ease-in-out block dark:hidden"
+        name="take-test" value="Take Test!">
+      <input type="submit"
+        class="border-[#876128] border-2 py-2 px-10 shadow-md tracking-wider rounded-2xl bg-[#febd5b] hover:bg-[#5495C9] font-semibold hover:text-white hover:border-[#2e5679] text-[#002951] transition duration-300 ease-in-out hidden dark:block"
+        name="take-test" value="Take Test!">
+    </form>
 
     <section class="lg:hidden">
       <button id="menu-button">
